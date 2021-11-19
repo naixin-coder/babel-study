@@ -2,10 +2,9 @@
  * @Author: 刘林
  * @Date: 2021-11-19 10:58:58
  * @LastEditors: 刘林
- * @LastEditTime: 2021-11-19 11:09:24
+ * @LastEditTime: 2021-11-19 11:15:27
  */
 const { parse } = require('@babel/parser');
-const traverse = require('@babel/traverse');
 const generate = require('@babel/generator');
 
 const a = "var a = 1;";
